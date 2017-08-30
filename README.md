@@ -39,7 +39,7 @@ Array literals `(...)`, `$somearray[someexpression]`, `"$somearray[someexpressio
 
 # REQUIREMENTS
 
-* [coreutils](https://www.gnu.org/software/coreutils/coreutils.html), in particular bash (!) and grep with `-E` support
+* [coreutils](https://www.gnu.org/software/coreutils/coreutils.html), in particular bash (!), xargs, and grep with `-E` support
 * [stank](https://github.com/mcandre/stank)
 
 # INSTALL
