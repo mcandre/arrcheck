@@ -37,6 +37,11 @@ $ head examples/apples.bash
 
 Array literals `(...)`, `$somearray[someexpression]`, `"$somearray[someexpression]"`, and `${somearray[someexpression]}"` are not checked. These forms are best checked by a full AST bash parser, and so a replacement implementation is planned for arrcheck to make use of https://github.com/mvdan/sh
 
+# REQUIREMENTS
+
+* [coreutils](https://www.gnu.org/software/coreutils/coreutils.html), in particular bash (!) and grep with `-E` support
+* [stank](https://github.com/mcandre/stank)
+
 # INSTALL
 
 1. Clone arrcheck.
