@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Quick and dirty linter to check for a handful of array manipulation bashisms
+
+usage() {
+    echo "Usage: $0 <paths>"
+}
+
+if [ -z "$@" ]; then
+    usage
+    exit 1
+fi
+
+stank "$@" | (! xargs -n 100 grep -E '\[@\]|\[\*\]')
