@@ -1,5 +1,9 @@
 # arrcheck: Warn on array usage in POSIX sh scripts
 
+# DEPRECATED
+
+Unmaintained.
+
 # ABOUT
 
 While waiting on common shell script linters like checkbashisms to add a rule for using arrays, which are not present in POSIX sh, we present arraycheck, a quick and dirty script dedicated to warning when POSIX sh scripts attempt to use obviously bash-derived array syntaxes.
